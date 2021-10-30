@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mood-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button {
+    border: 1px solid dodgerblue;
+    color: white;
+    background-color: dodgerblue;
+    height: 35px;
+    width: 75px;
+    border-radius: 5px;
+    margin: 5px;
+}
